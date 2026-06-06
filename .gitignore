@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Nuxt build output
+.nuxt/
+.output/
+dist/
+
+# Nitro
+.nitro/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# PWA dev
+dev-dist/
+
+# Drizzle
+.drizzle/
+
+# Vercel
+.vercel/
+
+# Others
+.atomcode

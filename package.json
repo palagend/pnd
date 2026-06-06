@@ -1,0 +1,38 @@
+{
+  "name": "palgend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "drizzle-kit generate:sqlite",
+    "db:migrate": "drizzle-kit migrate:sqlite",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "@pinia/nuxt": "^0.11.3",
+    "@vant/auto-import-resolver": "^1.3.0",
+    "bcrypt": "^6.0.0",
+    "dayjs": "^1.11.21",
+    "drizzle-orm": "^0.45.2",
+    "jose": "^6.2.3",
+    "nanoid": "^5.1.11",
+    "pinia": "^3.0.4",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "vant": "^4.9.24",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "autoprefixer": "^10.5.0",
+    "drizzle-kit": "^0.31.10",
+    "nuxt": "^4.4.7",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}
